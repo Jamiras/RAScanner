@@ -1,7 +1,19 @@
-*.suo
+# IDE
 *.user
+.qt
+.vs
+
+# Output
 *.o
 *.pdb
-.vs
 /bin
 /src/RAScanner
+
+# CMake stuff
+CMakeCache.txt
+CMakeFiles/
+Makefile
+RAScanner
+RAScanner_autogen
+build/
+cmake_install.cmake
